@@ -11,7 +11,7 @@ public class OOPApproach extends PApplet {
 
     public OOPApproach() {
         for (int iterator = 0; iterator < 4; iterator++)
-            ballProducer[iterator] = new BallProducer(iterator);
+            ballProducer[iterator] = new BallProducer(0);
 
     }
 
